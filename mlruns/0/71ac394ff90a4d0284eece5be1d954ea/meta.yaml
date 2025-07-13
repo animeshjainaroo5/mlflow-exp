@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/aroo/AI%20ML/ML/24-MLflow%20Dagshub%20and%20BentoML-complete%20ML%20Project%20Lifecycle/mlflowexperiments-main/mlruns/0/71ac394ff90a4d0284eece5be1d954ea/artifacts
+end_time: 1752386853546
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 71ac394ff90a4d0284eece5be1d954ea
+run_name: big-fly-113
+run_uuid: 71ac394ff90a4d0284eece5be1d954ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752386844458
+status: 3
+tags: []
+user_id: pc

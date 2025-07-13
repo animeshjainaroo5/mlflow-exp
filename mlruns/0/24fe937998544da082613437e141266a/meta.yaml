@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/aroo/AI%20ML/ML/24-MLflow%20Dagshub%20and%20BentoML-complete%20ML%20Project%20Lifecycle/mlflowexperiments-main/mlruns/0/24fe937998544da082613437e141266a/artifacts
+end_time: 1752387208059
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 24fe937998544da082613437e141266a
+run_name: angry-mouse-816
+run_uuid: 24fe937998544da082613437e141266a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752387201386
+status: 3
+tags: []
+user_id: pc
