@@ -18,6 +18,14 @@ import mlflow.sklearn
 
 import logging
 
+
+import dagshub
+dagshub.init(repo_owner='animeshjainaroo5', repo_name='mlflow-exp', mlflow=True)
+
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
+
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
 
@@ -78,10 +86,6 @@ if __name__ == "__main__":
         predictions = lr.predict(train_x)
         signature = infer_signature(train_x, predictions)
 
-        ## For Remote server only(DAGShub)
-
-        """ remote_server_uri="https://dagshub.com/krishnaik06/mlflowexperiments.mlflow"
-        mlflow.set_tracking_uri(remote_server_uri) """
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
